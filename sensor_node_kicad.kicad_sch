@@ -1,0 +1,94 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "f70c476d-7bbd-4b06-90f6-4e1ba7eb4803")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 33.02 50.8)
+		(size 88.9 43.18)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3eab1ba1-c4fb-4395-b295-bd62b513d7c8")
+		(property "Sheetname" "Power"
+			(at 33.02 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 33.02 94.5646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 33.02 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "D-" bidirectional
+			(at 83.82 93.98 270)
+			(uuid "723ebd9d-8a30-45e1-bd38-c59c7ade506d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D+" bidirectional
+			(at 73.66 93.98 270)
+			(uuid "4ebd9b0a-3cbd-4fa6-b225-72e19b874530")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "3V3" output
+			(at 121.92 71.12 0)
+			(uuid "0c54eb1e-c3e9-463d-bab7-fc99c641b04b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "sensor_node_kicad"
+				(path "/f70c476d-7bbd-4b06-90f6-4e1ba7eb4803"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)
