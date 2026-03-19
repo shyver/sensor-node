@@ -15,6 +15,16 @@
 		)
 		(uuid "d6020fe9-e442-46e2-8b2a-b682c1661621")
 	)
+	(wire
+		(pts
+			(xy 121.92 82.55) (xy 146.05 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddd192e5-a0c7-4bef-b891-1449c7b475ea")
+	)
 	(sheet
 		(at 33.02 50.8)
 		(size 88.9 43.18)
@@ -57,29 +67,19 @@
 				)
 			)
 		)
-		(pin "D-" bidirectional
-			(at 83.82 93.98 270)
-			(uuid "723ebd9d-8a30-45e1-bd38-c59c7ade506d")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "D+" bidirectional
-			(at 73.66 93.98 270)
-			(uuid "4ebd9b0a-3cbd-4fa6-b225-72e19b874530")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
 		(pin "3V3" output
 			(at 121.92 71.12 0)
 			(uuid "0c54eb1e-c3e9-463d-bab7-fc99c641b04b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "BATT+" output
+			(at 121.92 82.55 0)
+			(uuid "6f329ed9-4940-4101-a773-52821d0adc3d")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -111,7 +111,7 @@
 			(color 0 0 0 0.0000)
 		)
 		(uuid "e9a0d8eb-4e48-413c-89ba-182103be9406")
-		(property "Sheetname" "Processing"
+		(property "Sheetname" "Sensor Node Core"
 			(at 146.05 48.8184 0)
 			(effects
 				(font
@@ -132,6 +132,16 @@
 		(pin "3V3" input
 			(at 146.05 71.12 180)
 			(uuid "206f79dd-bcae-4361-9dc8-c25ebafc1674")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "BATT+" input
+			(at 146.05 82.55 180)
+			(uuid "902e1330-7eb2-4cbd-936e-ef8dd8c3170c")
 			(effects
 				(font
 					(size 1.27 1.27)

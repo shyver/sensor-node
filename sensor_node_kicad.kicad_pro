@@ -226,7 +226,16 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_to_pin|2400300|1092200|d0df5b67-aaba-4060-8760-7e0f506da0f7|6505f278-fbeb-4dbe-a9fc-61198727743a|/f70c476d-7bbd-4b06-90f6-4e1ba7eb4803/e9a0d8eb-4e48-413c-89ba-182103be9406|/f70c476d-7bbd-4b06-90f6-4e1ba7eb4803/e9a0d8eb-4e48-413c-89ba-182103be9406|/f70c476d-7bbd-4b06-90f6-4e1ba7eb4803/3eab1ba1-c4fb-4395-b295-bd62b513d7c8",
+        ""
+      ],
+      [
+        "pin_to_pin|2400300|254000|85fc5ecc-24ea-4cc4-86e5-54573b222de9|24ab2ebf-4c2b-4e52-8598-fc8af4134879|/f70c476d-7bbd-4b06-90f6-4e1ba7eb4803/3eab1ba1-c4fb-4395-b295-bd62b513d7c8|/f70c476d-7bbd-4b06-90f6-4e1ba7eb4803/3eab1ba1-c4fb-4395-b295-bd62b513d7c8|/f70c476d-7bbd-4b06-90f6-4e1ba7eb4803/e9a0d8eb-4e48-413c-89ba-182103be9406",
+        ""
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -620,7 +629,7 @@
     ],
     [
       "e9a0d8eb-4e48-413c-89ba-182103be9406",
-      "Processing"
+      "Sensor Node Core"
     ]
   ],
   "text_variables": {}

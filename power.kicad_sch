@@ -1834,6 +1834,155 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:ESD5Zxx"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "ESD5Zxx"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_SMD:D_SOD-523"
+				(at 0 -4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "ESD Protection Diode, SOD-523"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "esd tvs unidirectional diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "D?SOD?523*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "ESD5Zxx_0_1"
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -0.762 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.27) (xy 1.27 1.27) (xy -1.27 0) (xy 1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "ESD5Zxx_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Simulation_SPICE:NMOS"
 			(pin_numbers
 				(hide yes)
@@ -2722,16 +2871,16 @@
 		)
 	)
 	(junction
-		(at 63.5 100.33)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "000ce205-90d6-462d-9122-6be49403042a")
-	)
-	(junction
 		(at 261.62 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "21840c08-8c07-491c-bd3e-8af8537a6031")
+	)
+	(junction
+		(at 60.96 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "26b0cb38-863f-4b6a-805a-e32037e3e362")
 	)
 	(junction
 		(at 82.55 100.33)
@@ -2806,6 +2955,12 @@
 		(uuid "760a925c-77af-4b65-9aaf-8872175e273e")
 	)
 	(junction
+		(at 186.69 97.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7e6b33ca-e8e9-4aa4-988c-4d29e90e7e5b")
+	)
+	(junction
 		(at 242.57 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2848,6 +3003,12 @@
 		(uuid "abcef959-eb56-4af7-9cb7-28122efc6b3e")
 	)
 	(junction
+		(at 67.31 100.33)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "adfda02b-32a7-424a-a9a9-196ec9a62aba")
+	)
+	(junction
 		(at 191.77 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2871,6 +3032,22 @@
 		(color 0 0 0 0)
 		(uuid "f389221c-96c7-4a55-ac17-839272f474b8")
 	)
+	(no_connect
+		(at 44.45 118.11)
+		(uuid "0c43c700-4488-479d-92a0-0bbae0672529")
+	)
+	(no_connect
+		(at 44.45 113.03)
+		(uuid "13388117-afa5-4907-8a87-ae14e832e90f")
+	)
+	(no_connect
+		(at 44.45 115.57)
+		(uuid "23345d77-df73-4ae3-b5c4-d0317912d8da")
+	)
+	(no_connect
+		(at 44.45 120.65)
+		(uuid "dcc7bf05-cf48-4f7f-bfdd-6545e12f0991")
+	)
 	(wire
 		(pts
 			(xy 101.6 132.08) (xy 101.6 134.62)
@@ -2883,7 +3060,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 100.33) (xy 63.5 106.68)
+			(xy 60.96 100.33) (xy 60.96 106.68)
 		)
 		(stroke
 			(width 0)
@@ -3093,26 +3270,6 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 118.11) (xy 44.45 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39a8ac2e-a9c7-4b71-8b86-62e1a5124a45")
-	)
-	(wire
-		(pts
-			(xy 44.45 113.03) (xy 44.45 115.57)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "39b7f4e3-fcad-4d1f-85f4-e668a6a45883")
-	)
-	(wire
-		(pts
 			(xy 200.66 35.56) (xy 200.66 69.85)
 		)
 		(stroke
@@ -3250,6 +3407,16 @@
 			(type default)
 		)
 		(uuid "5597dca2-ff2b-4dcb-a1c5-3e509847fc63")
+	)
+	(wire
+		(pts
+			(xy 186.69 97.79) (xy 186.69 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55f3ea3b-9630-4dd6-847f-0ff7f4dd8360")
 	)
 	(wire
 		(pts
@@ -3473,7 +3640,7 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 25.4) (xy 186.69 114.3)
+			(xy 186.69 25.4) (xy 186.69 97.79)
 		)
 		(stroke
 			(width 0)
@@ -3543,6 +3710,16 @@
 	)
 	(wire
 		(pts
+			(xy 186.69 97.79) (xy 200.66 97.79)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d8ba2e8-d1dc-4771-8593-2992aba4be37")
+	)
+	(wire
+		(pts
 			(xy 82.55 100.33) (xy 92.71 100.33)
 		)
 		(stroke
@@ -3553,7 +3730,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 114.3) (xy 63.5 129.54)
+			(xy 60.96 114.3) (xy 60.96 129.54)
 		)
 		(stroke
 			(width 0)
@@ -3623,16 +3800,6 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 100.33) (xy 73.66 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b054ccf2-c7b0-43f5-8d49-8123e2b30d0f")
-	)
-	(wire
-		(pts
 			(xy 153.67 139.7) (xy 153.67 137.16)
 		)
 		(stroke
@@ -3673,6 +3840,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 125.73) (xy 67.31 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b88763a4-b5e8-4ab9-bb4f-6b1a7e4aed97")
+	)
+	(wire
+		(pts
 			(xy 209.55 43.18) (xy 209.55 59.69)
 		)
 		(stroke
@@ -3710,6 +3887,16 @@
 			(type default)
 		)
 		(uuid "c14bf684-3aad-4f84-87f3-2c02b487cb48")
+	)
+	(wire
+		(pts
+			(xy 67.31 100.33) (xy 73.66 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c33ad246-922d-4fd9-919f-8e1c096bb6df")
 	)
 	(wire
 		(pts
@@ -3803,6 +3990,16 @@
 	)
 	(wire
 		(pts
+			(xy 67.31 100.33) (xy 67.31 118.11)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d45be8-e2e7-44e7-b44d-9b9a9aff31be")
+	)
+	(wire
+		(pts
 			(xy 252.73 25.4) (xy 252.73 27.94)
 		)
 		(stroke
@@ -3863,7 +4060,7 @@
 	)
 	(wire
 		(pts
-			(xy 60.96 100.33) (xy 63.5 100.33)
+			(xy 60.96 100.33) (xy 67.31 100.33)
 		)
 		(stroke
 			(width 0)
@@ -3891,27 +4088,16 @@
 		)
 		(uuid "fa9291f5-b2f0-4df9-ad79-e2f4ba810991")
 	)
-	(hierarchical_label "D-"
-		(shape bidirectional)
-		(at 44.45 114.3 0)
+	(hierarchical_label "BATT+"
+		(shape output)
+		(at 200.66 97.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left)
 		)
-		(uuid "57c87af8-655d-4bce-9b5c-f923a4f36af9")
-	)
-	(hierarchical_label "D+"
-		(shape bidirectional)
-		(at 44.45 119.38 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f0418b7a-7ca2-4bf7-9b20-d29fbfbebe90")
+		(uuid "d954e16d-a0c3-4ad0-a4cb-77c5568f2d94")
 	)
 	(hierarchical_label "3V3"
 		(shape output)
@@ -3952,7 +4138,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 259.842 31.75 90)
 			(effects
 				(font
@@ -4022,7 +4208,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 259.842 53.34 90)
 			(effects
 				(font
@@ -4092,7 +4278,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 250.952 31.75 90)
 			(effects
 				(font
@@ -4129,6 +4315,72 @@
 			(project "sensor_node_kicad"
 				(path "/f70c476d-7bbd-4b06-90f6-4e1ba7eb4803/3eab1ba1-c4fb-4395-b295-bd62b513d7c8"
 					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 67.31 130.81 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "160b7173-ccdf-4245-be3b-fbac1713ddb4")
+		(property "Reference" "#PWR029"
+			(at 67.31 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 67.31 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 67.31 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eb9b2108-67d4-4147-91ea-dceebc2204e8")
+		)
+		(instances
+			(project "sensor_node_kicad"
+				(path "/f70c476d-7bbd-4b06-90f6-4e1ba7eb4803/3eab1ba1-c4fb-4395-b295-bd62b513d7c8"
+					(reference "#PWR029")
 					(unit 1)
 				)
 			)
@@ -4226,7 +4478,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 57.15 102.108 90)
 			(effects
 				(font
@@ -4361,7 +4613,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 161.29 149.86 0)
 			(effects
 				(font
@@ -4527,7 +4779,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 85.09 106.68 0)
 			(effects
 				(font
@@ -4672,7 +4924,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 58.928 118.11 90)
 			(effects
 				(font
@@ -4808,7 +5060,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 51.308 111.76 90)
 			(effects
 				(font
@@ -5007,7 +5259,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 			(at 156.21 149.86 0)
 			(effects
 				(font
@@ -5171,7 +5423,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4085"
 			(at 33.02 115.57 0)
 			(effects
 				(font
@@ -5412,7 +5664,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "ul_XFL4015-471MEC:IND_XFL4015_COC-M"
 			(at 203.2 49.53 0)
 			(effects
 				(font
@@ -5482,7 +5734,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 271.4752 39.37 0)
 			(effects
 				(font
@@ -5618,7 +5870,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 192.7352 45.72 0)
 			(effects
 				(font
@@ -5688,7 +5940,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 178.308 120.65 90)
 			(effects
 				(font
@@ -5759,7 +6011,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 133.0452 127 0)
 			(effects
 				(font
@@ -6028,7 +6280,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 183.8452 123.19 0)
 			(effects
 				(font
@@ -6351,7 +6603,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 63.5 129.54 0)
+		(at 60.96 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6360,7 +6612,7 @@
 		(fields_autoplaced yes)
 		(uuid "ae23e4df-9eda-4a61-8ba3-8e70bededb3f")
 		(property "Reference" "#PWR07"
-			(at 63.5 135.89 0)
+			(at 60.96 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6369,7 +6621,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 63.5 134.62 0)
+			(at 60.96 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6377,7 +6629,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 63.5 129.54 0)
+			(at 60.96 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6386,7 +6638,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 63.5 129.54 0)
+			(at 60.96 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6395,7 +6647,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 63.5 129.54 0)
+			(at 60.96 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6417,7 +6669,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 63.5 110.49 0)
+		(at 60.96 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6426,7 +6678,7 @@
 		(fields_autoplaced yes)
 		(uuid "b861bbb4-0de9-4af9-b7e6-01fd7021fcb3")
 		(property "Reference" "C3"
-			(at 67.31 109.2199 0)
+			(at 64.77 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6435,7 +6687,7 @@
 			)
 		)
 		(property "Value" "10µF"
-			(at 67.31 111.7599 0)
+			(at 64.77 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6443,8 +6695,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
-			(at 64.4652 114.3 0)
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
+			(at 61.9252 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6453,7 +6705,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 63.5 110.49 0)
+			(at 60.96 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6462,7 +6714,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 63.5 110.49 0)
+			(at 60.96 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6646,7 +6898,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 140.208 139.7 90)
 			(effects
 				(font
@@ -6716,7 +6968,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "LED_SMD:LED_0603_1608Metric"
 			(at 73.66 106.68 0)
 			(effects
 				(font
@@ -6795,7 +7047,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 75.438 114.3 90)
 			(effects
 				(font
@@ -6865,7 +7117,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 86.868 114.3 90)
 			(effects
 				(font
@@ -6935,7 +7187,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 119.888 129.54 90)
 			(effects
 				(font
@@ -7280,6 +7532,76 @@
 			(project "sensor_node_kicad"
 				(path "/f70c476d-7bbd-4b06-90f6-4e1ba7eb4803/3eab1ba1-c4fb-4395-b295-bd62b513d7c8"
 					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:ESD5Zxx")
+		(at 67.31 121.92 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fb1d8456-5ec2-4c57-a62f-9357f014570f")
+		(property "Reference" "D3"
+			(at 69.85 120.6499 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "ESD5Zxx"
+			(at 69.85 123.1899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Diode_SMD:D_SOD-523"
+			(at 71.755 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/esd5z2.5t1-d.pdf"
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "ESD Protection Diode, SOD-523"
+			(at 67.31 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "93cafd1c-788d-4ce8-818b-531e23ad363b")
+		)
+		(pin "1"
+			(uuid "f83ac9d3-1d54-46ad-8b96-cf135297140f")
+		)
+		(instances
+			(project ""
+				(path "/f70c476d-7bbd-4b06-90f6-4e1ba7eb4803/3eab1ba1-c4fb-4395-b295-bd62b513d7c8"
+					(reference "D3")
 					(unit 1)
 				)
 			)
