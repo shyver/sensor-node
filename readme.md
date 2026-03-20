@@ -109,7 +109,6 @@ USB-C → Charger → Battery → Regulator → ESP32 → Sensor (I2C)
 ### Documentation
 
 * Block diagram
-* Design notes
 * Rendered board images
 
 ---
