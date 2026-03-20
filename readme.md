@@ -135,7 +135,7 @@ USB-C → Charger → Battery → Regulator → ESP32 → Sensor (I2C)
 
 ## Author
 
-Hardware design and layout by [Your Name]
+Hardware design and layout by Abdelwahed Eloued
 
 ---
 
